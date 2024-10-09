@@ -94,3 +94,45 @@ h3 {
     color: #e74c3c;
 }
 
+/* Tambahkan ini ke style.css */
+
+section img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%; /* Gambar akan disesuaikan dengan ukuran kontainer */
+    height: auto;    /* Menjaga proporsi gambar */
+    text-align: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #ff6b6b;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    margin: 20px auto;
+    text-align: center;
+}
+
+section {
+    margin-bottom: 30px;
+}
